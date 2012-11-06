@@ -1,0 +1,41 @@
+html {
+	
+}
+
+body {
+	text-align:center;
+}
+
+#header, #footer {
+	padding: 10px;
+}
+
+#banner {
+	background-image:url('../img/banner.png');
+}
+
+#container {
+	margin: 0 auto;
+    width: 1000px;
+    text-align:left;
+    border-radius: 15px;
+	-moz-border-radius: 15px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+
+h1 {
+	color: #333333;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+}
+
+h2 {
+	color: #333333;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;	
+}
+
+h3 {
+	color: #333333;
+	font-family: ‘Courier New’, Courier, monospace;
+}
