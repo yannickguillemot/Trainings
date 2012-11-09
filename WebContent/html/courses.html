@@ -3,40 +3,58 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF8">
 <title>Trainings</title>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<link rel="stylesheet" type="text/css" href="../css/courses.css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+<script src="../js/datepicker.js"></script>
+
 </head>
 <body>
-	<div id="header">
-		<input id="btn_home" type="button" value="Home"/>
-		<input id="btn_backoffice" type="button" value="Admin"/>
-	</div>
 	<div id="container">
-		<div id="filters">
-			Filters
+		<div id="header">
+			<a id="link_home" href="">Home</a>
+			<a id="link_admin" href="">Admin</a>
 		</div>
-		<div id="sessions">
-			<ul id="courses-list">
-				<li>
-					<ul id="sessions-list">
-						<li>
-							<div id="session-label">
-							</div>
-							<div id="session-time">
-							</div>
-						</li>
-						<li>
-							<div id="session-label">
-							</div>
-							<div id="session-time">
-							</div>
-						</li>
-					</ul>
-				</li>
-				<li></li>
-			</ul>
+		<div id="content">
+			<div id="filters">
+				Filters
+				<div id="name-filter"><span class="filter-label">Intitulé :</span> <input id="name-text" name="name-text" type="text" /></div>
+				<div id="date-filter"><span class="filter-label">Date :</span> <input id="date-text" name="date-text" type="text" /></div>
+				<div id="place-filter"><span class="filter-label">Lieu :</span> <input id="place-text" name="place-text" type="text" /></div>
+			</div>
+			<div id="sessions">
+				<ul class="courses-list">
+					<li class="course-item">
+						LO60 - iOS Development
+						<a class="btn-toggle" href="#">toggle</a>
+						<ul class="sessions-menu"> 
+							<li>
+								<div id="session-label">
+									Test
+								</div>
+								<div id="session-time">
+									10/11/12 10:00
+								</div>
+							</li>
+							<li>
+								<div id="session-label">
+									Test2
+								</div>
+								<div id="session-time">
+									10/11/12 14:00
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li></li>
+				</ul>
+			</div>
 		</div>
-	</div>
-	<div id="footer">
-		<span id="copyright">Copyright © 2012 - Projet LO54 - Dino Basic et Yannick Guillemot</span>
+		<div id="footer">
+			<span id="copyright">Copyright © 2012 - Projet LO54 - Dino Basic et Yannick Guillemot</span>
+		</div>
 	</div>
 </body>
 </html>

@@ -1,0 +1,18 @@
+#content {
+	padding: 20px O;
+	width:50%;
+	margin:0 auto;
+}
+
+.filter-label {
+	display:inline-block;
+	width: 100px;
+}
+
+div.ui-datepicker{
+ 	font-size:10px;
+}
+
+.sessions-menu {
+	display: none;
+}

@@ -3,20 +3,39 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF8">
 <title>Trainings</title>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<link rel="stylesheet" type="text/css" href="../css/subscribe.css">
+
 </head>
 <body>
-	<div id="header">
-		<input id="btn_home" type="button" value="Home"/>
-		<input id="btn_backoffice" type="button" value="Admin"/>
-	</div>
 	<div id="container">
-		<div id="title">
+		<div id="header">
+			<a id="link_home" href="">Home</a>
+			<a id="link_admin" href="">Admin</a>
 		</div>
 		<div id="content">
+			<div id="title">
+				<h2>LO60 - iOS Development</h2>
+				<h3>10 novembre 2012 à 10h</h3>
+			</div>
+			
+			<div id="description">
+				<p>Fill out this form to be subscribed in the session</p>
+			</div>
+			<div id="subscription>">
+				<form id="subscription-form" method="POST" action="addtosession.html">
+					<div class="form-line"><span class="form-label">First name</span> <input type="text" /></div>
+					<div class="form-line"><span class="form-label">Last name</span> <input type="text" /></div>
+					<div class="form-line"><span class="form-label">Address</span> <input type="text" /></div>
+					<div class="form-line"><span class="form-label">Phone</span> <input type="text" /></div>
+					<div class="form-line"><span class="form-label">Mail</span> <input type="text" /></div>
+					<div class="form-line"><input type="submit" value="Subscribe me"/></div>
+				</form> 
+			</div>
 		</div>
-	</div>
-	<div id="footer">
-		<span id="copyright">Copyright © 2012 - Projet LO54 - Dino Basic et Yannick Guillemot</span>
+		<div id="footer">
+			<span id="copyright">Copyright © 2012 - Projet LO54 - Dino Basic et Yannick Guillemot</span>
+		</div>
 	</div>
 </body>
 </html>

@@ -1,0 +1,26 @@
+#banner {
+	height:326px;
+	background: url('../img/banner.png') left top no-repeat;
+}
+
+#courses_access {
+	width:100%;
+}
+
+#btn_courses {
+	display: block;
+	display: inline-block;
+	margin: 0 auto; 
+}
+
+#col-gauche, #col-droite{
+	padding: 15px;
+	width:45%;
+}
+
+#col-gauche {
+	float: left;
+}
+#col-droite {
+	float:right;
+}

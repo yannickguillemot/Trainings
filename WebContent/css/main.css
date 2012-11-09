@@ -8,6 +8,7 @@ body {
 	font-family: Century Gothic, sans-serif;
 	color: #606060;
 	font-size: 0.9em;
+	min-height: 100%;
 }
 
 #container {
@@ -20,33 +21,25 @@ body {
 	-moz-box-shadow: 0 0 5px #888;
 	-webkit-box-shadow: 0 0 5px#888;
 	box-shadow: 0 0 5px #888;
+	overflow: auto;
 }
 
 #header, #footer {
 	padding: 10px;
 }
 
-#footer {
-	text-align: right;
+#header {
+	border-bottom: 1px #F0F0F0 solid; 
 }
 
-#banner {
-	height:326px;
-	background: url('../img/banner.png') left top no-repeat;
+#footer {
+	float:none;
+	text-align: right;
+	border-top: 1px #F0F0F0 solid;
 }
 
 #link_admin {
 	float: right;
-}
-
-#courses_access {
-	width:100%;
-}
-
-#btn_courses {
-	display: block;
-	display: inline-block;
-	margin: 0 auto; 
 }
 
 /*********Fonts**********/
